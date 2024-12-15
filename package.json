@@ -17,6 +17,8 @@
     "lint:format": "prettier --ignore-path .gitignore --write \"src/**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts}\""
   },
   "dependencies": {
+    "pinia": "^2.3.0",
+    "pinia-plugin-persistedstate": "^4.1.3",
     "typescript": "5.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.5.0",

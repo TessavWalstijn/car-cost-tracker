@@ -14,13 +14,18 @@
         </router-link>
       </li>
       <li>
-        <router-link to="/add-maintenance">
-          <i class="fa-light fa-2x fa-car-wrench"></i>
+        <router-link to="/add-full">
+          <i class="fa-light fa-2x fa-gas-pump"></i>
         </router-link>
       </li>
       <li>
         <router-link to="/add-wash">
           <i class="fa-light fa-2x fa-car-wash"></i>
+        </router-link>
+      </li>
+      <li>
+        <router-link to="/add-maintenance">
+          <i class="fa-light fa-2x fa-car-wrench"></i>
         </router-link>
       </li>
     </ul>

@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { defineProps } from 'vue'
 import { NavMenu } from '@/components/NavMenu/'
-// import NavMenu from '@/components/NavMenu/NavMenu.vue'
 
 defineProps<{ title: string }>()
 </script>
@@ -9,4 +8,5 @@ defineProps<{ title: string }>()
 <template>
   <h1>{{ title }}</h1>
   <NavMenu />
+  <slot />
 </template>
