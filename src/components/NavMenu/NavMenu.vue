@@ -4,24 +4,24 @@
   <nav>
     <ul>
       <li>
-        <a href="/">
+        <router-link to="/">
           <i class="fa-light fa-2x fa-car-garage"></i>
-        </a>
+        </router-link>
       </li>
       <li>
-        <a href="/add-trip">
+        <router-link to="/add-trip">
           <i class="fa-light fa-2x fa-car-on"></i>
-        </a>
+        </router-link>
       </li>
       <li>
-        <a href="/add-maintenance">
+        <router-link to="/add-maintenance">
           <i class="fa-light fa-2x fa-car-wrench"></i>
-        </a>
+        </router-link>
       </li>
       <li>
-        <a href="/add-wash">
+        <router-link to="/add-wash">
           <i class="fa-light fa-2x fa-car-wash"></i>
-        </a>
+        </router-link>
       </li>
     </ul>
   </nav>
