@@ -14,7 +14,7 @@
         </router-link>
       </li>
       <li>
-        <router-link to="/add-full">
+        <router-link to="/add-fuel">
           <i class="fa-light fa-2x fa-gas-pump"></i>
         </router-link>
       </li>

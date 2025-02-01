@@ -3,5 +3,5 @@ import { PageTemplate } from '@/components/template/PageTemplate'
 </script>
 
 <template>
-  <PageTemplate title="Add Wash"></PageTemplate>
+  <PageTemplate title="Add Fuel" />
 </template>

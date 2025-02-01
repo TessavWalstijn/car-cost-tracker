@@ -4,7 +4,7 @@ export const eEvents = {
   trip: 'trip',
   maintenance: 'maintenance',
   wash: 'wash',
-  refill: 'refill',
+  fuel: 'fuel',
 } as const
 
 export type tEvents = createEnum<typeof eEvents>
